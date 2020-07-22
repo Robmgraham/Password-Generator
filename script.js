@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-    return "hereismypassword"
+    return [passwordCapital+passwordlower+passwordSpecial+passwordNumbers]
 }
 
 // Write password to the #password input

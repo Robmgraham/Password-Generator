@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-    return (passwordCapital+passwordNumbers+passwordSpecial+passwordlower);
+    return "hereismypassword"
 }
 
 // Write password to the #password input
@@ -19,10 +19,10 @@ var specialChar = "!,#,$,%,&,',(,),*,+,,,-,.,/,:,;,<,=,>,?,@,[,\,],^,_,`,{,|,},~
 var numbers = "1,2,3,4,5,6,7,8,9,0";
 var charTotal;
 
-var splitCapitalCase = split (capitalCase, ",");
-var splitLowerCase = split (lowerCase, ",");
-var splitSpecialCahr = split (specialChar, ",");
-var splitNumbers = split (numbers, ",");
+var splitCapitalCase = (capitalCase.split, ",");
+var splitLowerCase = (lowerCase.split, ",");
+var splitSpecialChar = (specialChar.split, ",");
+var splitNumbers = (numbers.split, ",");
 
         //-------while loop keeps characters between 8-128-------//
 
